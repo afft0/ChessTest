@@ -1,0 +1,21 @@
+{
+    "name": "emfomin/chess",
+    "type": "project",
+    "description": "Chess test project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Eduard Fomin",
+            "email": "googl2.71@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chess\\": "src/"
+        }
+    }
+}
